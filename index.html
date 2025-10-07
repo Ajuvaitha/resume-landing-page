@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume Services — Landing</title>
+
+  <!-- Google Font (replace if Figma uses another font) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Mobile menu overlay -->
+  <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+    <nav class="mobile-nav">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Our Services</a>
+      <a href="#">Pricing</a>
+      <a href="#">FAQ</a>
+      <a href="#" class="cta mobile-cta">Contact Us</a>
+    </nav>
+  </div>
+
+  <!-- Page wrapper -->
+  <div class="page">
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <!-- inline simple logo SVG, replace with your exported logo.svg -->
+          <svg class="logo" width="140" height="36" viewBox="0 0 140 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="0" y="0" width="140" height="36" rx="6" fill="#fff" />
+            <g transform="translate(8,6)">
+              <circle cx="10" cy="10" r="10" fill="#ff3d6b"></circle>
+              <text x="36" y="14" font-family="Poppins, Arial" font-weight="700" font-size="14" fill="#111">COMPANY</text>
+            </g>
+          </svg>
+        </div>
+
+        <nav class="main-nav">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Our Services</a>
+          <a href="#">Pricing</a>
+          <a href="#">FAQ</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn outline">Get A Quote</button>
+          <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+
+        <!-- HERO LEFT (text) -->
+        <div class="hero-left">
+          <div class="eyebrow">Your Resume</div>
+          <h1 class="hero-title">
+            Deserves <span class="accent">A Yes</span> Let’s <br />Make It Happen
+          </h1>
+          <p class="hero-desc">
+            If your resume isn't getting responses, it's time for an upgrade. Get an ATS-optimized resume crafted by HR experts to help you land more interviews.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#" class="btn ghost">Resume Packages</a>
+            <a href="#" class="btn primary">Contact Us</a>
+          </div>
+        </div>
+
+        <!-- HERO RIGHT (image + badges) -->
+        <div class="hero-right">
+          <div class="hero-image-wrap">
+            <!-- placeholder hero image, replace with your Figma export image -->
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80" alt="Student holding books" class="hero-image">
+
+            <!-- rating badge -->
+            <div class="badge rating">
+              <strong>4.9</strong>
+              <div class="stars">★★★★★</div>
+              <span class="small">Instructor Rating</span>
+            </div>
+
+            <!-- counter badge -->
+            <div class="badge counter">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#fff"/><path d="M4 6h16" stroke="#ff3d6b" stroke-width="1.2"/></svg>
+              <div>
+                <strong>260+</strong>
+                <span class="small">Online Resume Created</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What You Get -->
+    <section class="features">
+      <div class="container">
+        <div class="section-label">What You Get</div>
+        <h2 class="section-title">You’re Not Just <span class="accent">Another Applicant</span> And Your Resume Shouldn’t Look Like One</h2>
+
+        <div class="cards">
+          <article class="card">
+            <img src="images\Screenshot 2025-10-07 210016.png" alt="" class="card-illustration">
+            <h3 class="card-title">A Resume Format That Gets You Interviews</h3>
+            <p class="card-desc">Get a professionally written, keyword-optimized resume that lands in recruiter inboxes.</p>
+          </article>
+
+          <article class="card">
+            <img src="images\Screenshot 2025-10-07 210028.png" alt="" class="card-illustration">
+            <h3 class="card-title">A Cover Letter Style That Stands Out Strong</h3>
+            <p class="card-desc">Stand out with a cover letter that speaks directly to the role and reflects your strengths.</p>
+          </article>
+
+          <article class="card">
+            <img src="images\Screenshot 2025-10-07 210037.png" alt="" class="card-illustration">
+            <h3 class="card-title">A LinkedIn Profile That Works For You</h3>
+            <p class="card-desc">Attract the right eyes, start conversations, and show up in recruiter searches.</p>
+          </article>
+
+          <article class="card">
+            <img src="images\Screenshot 2025-10-07 210045.png" alt="" class="card-illustration">
+            <h3 class="card-title">An Interview Strategy That Builds Confidence</h3>
+            <p class="card-desc">Interview preparation with real HR professionals so you speak clearly and confidently.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© 2025 COMPANY — All rights reserved</div>
+        <div class="socials">Made with ❤️</div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
